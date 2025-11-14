@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konecte.com</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div id="colunaesquerda">
+          <div class="linksAbas">
+            <a href="home.html" class="link-aba">Home</a>
+            <a href="shopping.html" class="link-aba">Shopping</a>
+            <a href="tablets.html" class="link-aba">Tablets</a>
+          </div>
+        </div>
+        <div id="colunacentral">
+          <div id="logo">
+            <img src="pb.png" alt="" id="imglogo" />
+          </div>
+        </div>
+        <div id="colunadireitaextrema">
+          <div class="header-icons" aria-hidden="false">
+            <a href="#" class="icon-btn" aria-label="Carrinho">
+              <svg viewBox="0 0 24 24" fill="cur rentColor" aria-hidden="true">
+                <path
+                  d="M7.16 14h9.45c.75 0 1.41-.41 1.75-1.03l2.54-4.57A1 1 0 0 0 20.96 7H6.21L5.27 4H1v2h2l3.6 7.59-.44.81c-.08.15-.12.32-.12.5 0 .55.45 1 1 1h12v-2H7.42l-.26-.5zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+            </a>
+            <div class="contadown">
+              <button class="contabtn">
+                <a href="#" class="icon-btn" aria-label="Perfil">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"
+                    />
+                  </svg>
+                </a>
+              </button>
+              <div class="contadown-content">
+                <a href="#">Conta</a>
+                <a href="#">Cadastro</a>
+                <a href="index.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="colunadireita">
+          <!-- ícones do carrinho e usuário -->
+          <div class="linksAbas">
+            <a href="sobre.html" class="link-aba">Sobre</a>
+            <a href="contato.html" class="link-aba">Contato</a>
+            <a href="celulares.html" class="link-aba">Celulares</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="search-container">
+          <form class="search-form">
+            <input
+              type="search"
+              placeholder="Buscar produtos..."
+              class="search-input"
+            />
+            <button type="submit" class="search-button">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <div class="produtos-container">
+          <h2>Produtos em Destaque</h2>
+          <div class="produtos-grid">
+            <div class="produto-card">
+              <img src="tablet3.jpeg" />
+              <h3>Tablet 3</h3>
+              <p class="preco">R$ 1.999,00</p>
+              <button class="btn-comprar">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto-card">
+              <img src="tablet4.jpeg" class="imgnote" />
+              <h3>Tablet 4</h3>
+              <p class="preco">R$ 4.499,00</p>
+              <button class="btn-comprar">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto-card">
+              <img src="tablet2.jpeg" class="imgsmart" />
+              <h3>Tablet 2</h3>
+              <p class="preco">R$ 1.899,00</p>
+              <button class="btn-comprar">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto-card">
+              <img src="tablet1.jpeg" class="imgair" />
+              <h3>Tablet Pro</h3>
+              <p class="preco">R$ 1.299,00</p>
+              <button class="btn-comprar">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div id="logo-footer">Initech</div>
+          <small>© 2025 Initech. Todos os direitos reservados.</small>
+        </div>
+
+        <div class="footer-center">
+          <nav class="social" aria-label="Redes sociais">
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M4.98 3.5C4.98 4.88071 3.88 6 2.5 6S0 4.88071 0 3.5 1.12 1 2.5 1 4.98 2.11929 4.98 3.5zM0 8.999h5v15H0v-15zM8.5 8.999h4.788v2.06h.07c.667-1.264 2.295-2.06 3.757-2.06 4.018 0 4.997 2.647 4.997 6.083v8.917h-5v-7.9c0-1.884-.034-4.309-2.626-4.309-2.63 0-3.03 2.053-3.03 4.176v8.033h-5v-15z"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04 4.28 4.28 0 0 0-7.3 3.9A12.14 12.14 0 0 1 3.16 4.6a4.28 4.28 0 0 0 1.32 5.71 4.24 4.24 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98A8.59 8.59 0 0 1 2 19.54a12.12 12.12 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19 0-.38-.01-.57A8.72 8.72 0 0 0 22.46 6z"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="social-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 .5C5.73.5.99 5.24.99 11.5c0 4.64 3.01 8.57 7.19 9.96.53.1.72-.23.72-.51 0-.25-.01-.92-.01-1.8-2.92.64-3.54-1.41-3.54-1.41-.48-1.22-1.17-1.55-1.17-1.55-.96-.66.07-.65.07-.65 1.07.08 1.64 1.1 1.64 1.1.94 1.61 2.47 1.15 3.07.88.09-.69.37-1.15.67-1.41-2.33-.27-4.78-1.17-4.78-5.21 0-1.15.41-2.09 1.08-2.83-.11-.27-.47-1.36.1-2.83 0 0 .88-.28 2.88 1.08a9.95 9.95 0 0 1 2.62-.35c.89 0 1.79.12 2.62.35 2-.36 2.88-1.08 2.88-1.08.57 1.47.21 2.56.1 2.83.67.74 1.08 1.68 1.08 2.83 0 4.05-2.46 4.93-4.8 5.19.38.33.72.98.72 1.98 0 1.43-.01 2.58-.01 2.93 0 .28.19.61.73.51C20 20.07 23 16.14 23 11.5 23 5.24 18.27.5 12 .5z"
+                />
+              </svg>
+            </a>
+          </nav>
+        </div>
+
+        <div class="footer-right">
+          <div>
+            Contato:
+            <a href="mailto:contato@initech.com">contato@initech.com</a>
+          </div>
+          <div>Tel: <a href="tel:+551199999999">+55 (027) 99999-9999</a></div>
+          <div>Endereço: Espirito Santo, ES, Brasil</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
